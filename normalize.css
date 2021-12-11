@@ -1,0 +1,66 @@
+
+body{
+    background-image: url('https://images.unsplash.com/photo-1579444741963-5ae219cfe27c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80');
+}
+ul{
+    margin: 0;
+    padding: 0;
+    
+}
+a{
+    display: block;
+    padding: 8px;
+    background-color: rgb(211, 3, 3);
+    width: 399px;
+    color: darkturquoise;
+    border-radius: 10px;
+}
+a:hover{
+    background-color: rgb(88, 35, 81);
+}
+
+li{
+    list-style: none;
+    float: left;
+}
+h1{
+    background-color: dimgrey;
+    width: 440px;
+    border: 8px rgb(98, 80, 218);
+    border-style: groove;
+    border-radius: 9px;
+    font-size: 28px;
+     
+}
+h1:hover{
+    background-image: url('https://images.unsplash.com/photo-1510070112810-d4e9a46d9e91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80');
+    
+}
+
+div1{
+    position: relative;
+    left: 10px;
+    
+}
+div4{
+    font-family:monospace;
+} 
+div5{
+    font-family: 'Lobster Two', cursive;;
+}
+
+button{
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 2px 2px 3px 3px;
+    color: cornflowerblue;
+}
+
+button:hover{
+    background-color: #114455;
+    color: white;
+    cursor:pointer;
+}
+footer{
+    font-size: larger;
+}

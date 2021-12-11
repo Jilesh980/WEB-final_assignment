@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<body>
+    <meta charset="UTF-8">
+    <head>
+        
+        <title>signup</title>
+        
+        <form action="https://httpbin.org/post" method="POST" name="signup">
+            <link rel="stylesheet" type="css/text" href="normalize.css"/>
+            <link rel="stylesheet" type="text/css" href="normalize.css">
+            <ul>
+                <li><a href="honesty.html">Honesty</a></li>
+                <li><a href="info.html">Information</a></li>
+                <li><a href="reflection.html">Reflection</a></li>
+            </ul><br>
+            <h1>
+            <div1> <label for="first name">First Name: </label>
+            <input type="text" id="fName" name="fname" autofocus required autocapitalize="words"></div1>
+            <br><br>
+            <label for="last name">Last Name: </label>
+            <input type="text" id="lName" name="lname" required autocapitalize="on"><br><br> 
+            <div5><label for="password">Password: </label>
+            <input type="password" id="password" name="password" required minlength="6"  ></div5><br><br>
+            <label for="password">Confirm your password:</label>
+            <input type="password" id="password2" name="password2" required minlength="6"><br><br>
+            <label for="Username">Username: </label>
+            <input type="text" id="username" name="Username" required min="6">
+             <br><br><div5>
+            <label for="Education">Education Status: </label></div5>
+            <div>
+            <input type="radio" id="Graduated" name="status" value="Graduated" checked>
+            <label for="Graduated">Graduated</label> 
+            </div>
+            <div2>
+            <input type="radio" id="Current Enrolled" name="status" value="Current Enrolled" >
+            <label for="Current Enrolled"> Current Enrolled</label>
+            </div2>
+            <div3><br>
+                <input type="radio" id="DNG" value="DNG" name="status">
+                <label for="DNG">Did Not Graduate</label>
+            </div3><br> <br>
+            <div4><label for="email">Enter your email:</label>
+            <input type="email" id="email"  size="30" required ><br></div4>
+            <label for="age">Age:</label>
+            <input type="number" min="18" max="60" required> <br><br>
+            <button type="submit">Submit information</button>
+            <button type="reset">RESET</button>
+            
+            </h1>
+            <footer>&copy; JILESH PATEL 2021
+            </footer>
+            <input type="hidden" name="lastName" id="lastName" value="JILESH PATEL" />
+            <input type="hidden" name="studentId" id="studentId" value="133261206" />
+        </form>
+    </head>
+</body>
